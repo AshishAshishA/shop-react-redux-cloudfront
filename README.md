@@ -1,3 +1,17 @@
+#links
+
+ - s3ObjectUrl - https://deploywebappstack-deploymentfrontendbucketpeerbe50-pxzhgtc68oce.s3.us-east-1.amazonaws.com/index.html   -    //will get 403 as permission is configured only for cloudfront
+
+ - cloudfrontUrl - https://d2855wervvjyj6.cloudfront.net/
+
+
+# added necessary scripts to automated builds and deploy in infra/package.json"
+
+git reset --hard HEAD~1
+fatal: ambiguous argument 'HEAD~1': unknown revision or path not in the working tree.
+Use '--' to separate paths from revisions, like this:
+'git <command> [<revision>...] -- [<file>...]'
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
